@@ -1,0 +1,2 @@
+[17-Dec-2014 17:34:33 UTC] PHP Fatal error:  Call to a member function get_wishlist_url() on a non-object in /home/wwwconce/public_html/wp-content/themes/flatsome/page-my-account.php on line 13
+[17-Dec-2014 17:34:39 UTC] PHP Fatal error:  Call to a member function get_wishlist_url() on a non-object in /home/wwwconce/public_html/wp-content/themes/flatsome/page-my-account.php on line 13
