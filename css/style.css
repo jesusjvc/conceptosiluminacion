@@ -1,9 +1,27 @@
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/fonts/Avenir-Light.woff2') format('woff2'),
+        url('../fonts/fonts/Avenir-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/fonts/Avenir-Medium.woff2') format('woff2'),
+        url('../fonts/fonts/Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 h4, h5, h6,
 h1, h2, h3 {
 	margin-top: 0;
 	text-align: left;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Avenir';
+	
 	font-size: 16px;
 }
 
@@ -33,14 +51,14 @@ span.title-bold{
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Avenir';
 }
 
 
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: 'Avenir';
 	background: #F6F6F6;
 }
 body a{
@@ -55,7 +73,7 @@ body a{
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-bottom:0;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 }
 .logo h1 a{
 	color:#F94B4B;
@@ -117,7 +135,7 @@ a#loginButton:hover {
 text-decoration: none;
 }
 #loginButton span{
-	font-family:'Open Sans', sans-serif;
+	font-family:'Avenir';
 	font-size:0.85em;
 	color: #FFF;
 	padding:10px 25px;
@@ -176,7 +194,7 @@ text-decoration: none;
 	background: none;
 	font-size: 1em;
 	color: #555;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir';
 	width:88%;
 	padding: 8px;
 	-webkit-apperance: none;
@@ -404,11 +422,19 @@ span.icon-male{
 	font-weight:700;
 	text-transform:uppercase;
 	margin: 1.5em 0 0.6em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 }
 .product_container h3 a{
+    font-weight: 500;
 	color:#000;
+    font-size: 18px;
 }
+
+.product_container  span.title-bold{
+    font-size: 18px;
+    font-weight: 1000;
+}
+
 .product_container h3 a:hover{
 	color:#F94B4B;
 	text-decoration:none;
@@ -441,7 +467,7 @@ span.icon-male{
 	text-transform: uppercase;
 	display: inline-block;
 	color: #555;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 }
 #main-reservation-undertext p {
 	font-weight: 300;
@@ -467,7 +493,7 @@ span.icon-male{
 	background-color:#00B895;
 }
 .btn.btn-primary {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size:1.8em;
 	font-weight: 300;
 	font-style: normal;
@@ -553,7 +579,7 @@ span.icon-male{
 	text-align: center;
 	border-bottom: 3px #f1f1f1 solid;
 	text-transform: uppercase;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Avenir';
 	height: 12px;
 	margin-bottom: 45px;
 	font-weight: 300;
@@ -596,7 +622,7 @@ span.icon-male{
     font-size: 2em;
     text-transform: uppercase;
     margin-bottom: 1em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Avenir';
 }
 .nbs-flexisel-item img {
 	  width: 100%;
@@ -630,10 +656,17 @@ span.icon-male{
  	background: url(../images/arrows.png) -70px -6px no-repeat;
 }
 .desc h3{
-	font-size: 1.3em;
+	font-size: 14px;
 	color: #dcbc86;
 	text-align: center;
 }
+
+ul#flexiselDemo3 h3
+{
+    font-size: 20px;
+    padding: 0px, 10px;
+}
+
 .welcome_desc {
 	width: 92%;
 }
@@ -664,7 +697,7 @@ ul#general-info{
 	background:#fff;
 }
 .company_logos h3{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	color:#000;
 	margin-bottom:15px;
 	text-transform:uppercase;
@@ -756,7 +789,7 @@ ul#general-info{
 	font-weight:700;
 	text-transform:uppercase;
 	margin-bottom:1em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 }
 .footer_top {
 	border-bottom: 1px dotted #8F695E;
@@ -980,7 +1013,7 @@ ul.socials li{
 	text-transform: uppercase;
 	padding-bottom: 20px;
 	color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	text-shadow: 2px 2px 10px #000000;
 }
 .divider {
@@ -997,7 +1030,7 @@ ul.socials li{
 	padding-top: 0em;
 }
 .personal h2{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	color: #000;
 	margin-bottom:1em;
 	text-transform: uppercase;
@@ -1087,7 +1120,7 @@ h2.head {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin:0 0 1em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 }
 .reservation-form div{
 	margin-bottom:20px;
@@ -1108,7 +1141,7 @@ p.para{
 	font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 1em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Avenir';
 	padding-left: 320px;
     padding-top: 22px;
 }
@@ -1145,7 +1178,7 @@ h3.hist{
 	font-weight: 700;
 	margin-bottom:1em;
 	text-transform: uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	color:#000;
 	text-align:center;
 }
@@ -1155,7 +1188,7 @@ h3.hist{
 .staff_grid h3{
 	font-size:2em;
 	text-transform:uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	margin:1em 0 0.5em;
 }
 .staff_grid h3 a{
@@ -1175,7 +1208,7 @@ h2.staff_head{
 	font-weight: 700;
 	margin-bottom:1em;
 	text-transform: uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	color:#000;
 	text-align:center;
 }
@@ -1203,7 +1236,7 @@ h2.staff_head{
 	margin-bottom:3em;
 }
 .post1 h3{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size:2em;
 	color:#555;
 	text-transform:uppercase;
@@ -1260,7 +1293,7 @@ nav a:focus {
 	padding: 9px 0px 5px;
 	color:#F94B4B;
 	text-shadow: none;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size:1.2em;
 	font-weight:700;
 }
@@ -1325,7 +1358,7 @@ img.zoom-img {
 	-moz-transition-duration: 250ms;
 }
 .category_widget h3{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size: 2em;
 	color: #555;
 	text-transform: uppercase;
@@ -1359,7 +1392,7 @@ ul.blog-list1 {
 	padding:0
 }
 ul.blog-list1 h3, ul.recent-list h3{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size: 2em;
 	color: #555;
 	text-transform: uppercase;
@@ -1459,7 +1492,7 @@ ul.comment-list .desc {
 }
 /*--single--*/
 .comments-area h3{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size: 2em;
 	color: #555;
 	text-transform: uppercase;
@@ -1521,7 +1554,7 @@ ul.comment-list .desc {
 }
 /*--contact--*/
 .contact_left h3, .contact_right h3{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Avenir';
 	font-size: 2em;
 	color: #555;
 	text-transform: uppercase;
